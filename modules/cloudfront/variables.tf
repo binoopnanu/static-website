@@ -15,10 +15,7 @@ variable "default_root_object" {
   default = "index.html"
 }
 
-# variable "price_class" {
-#   type    = string
-#   default = "PriceClass_100"
-# }
+
 variable "s3_bucket_name" {
   type = string
 }
